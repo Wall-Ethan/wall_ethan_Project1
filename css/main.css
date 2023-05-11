@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: #252525;
+    background-image: url('../images/pexels-fabricio-trujillo-54567.jpg');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+
+#container {
+    margin: 20px auto;
+    width: 428px;
+    border: solid 2px red;
+    background: #999999;
+    border-radius: 15px;
+}
+
+#mainContent {
+        display: grid;
+        grid-template-columns: repeat(-1, 95px);
+        grid-column-gap: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+article {
+    grid-column: 1/-1;
+}
+
+img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+article h1 {
+    padding: 0;
+    margin: 0;
+    background: rgb(0, 0, 0);
+    color: blue;
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+}
+
+article p {
+    background-color: #868585;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+article h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+
